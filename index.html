@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Lopes - Desenvolvedor/Cybersegurança | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <a href="#" class="logo">&lt;Dev&Cyber/Matheus Lopes Pereira&gt;</a>
+    <nav class="nav">
+        </nav>
+
+    <div class="lang-selector">
+        <button id="lang-br" class="lang-btn active-lang" data-lang="pt" title="Português">
+            <img src = "OIP.webp" alt="Ícone" width="30" height="30">
+            🇧🇷 </button>
+        <span>|</span>
+        <button id="lang-en" class="lang-btn" data-lang="en" title="English">
+            <img src = "OIP.jpg" alt="Ícone" width="30" height="30">
+            🇺🇸 </button>
+    </div>
+
+    <button id="mode-toggle" title="Alternar Modo Escuro/Claro">
+        <i class="fas fa-sun"></i> 
+    </button>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="greeting" data-key="heroGreeting">Olá, eu sou</p>
+        <h1 data-key="heroName">Matheus Lopes Pereira</h1>
+        <p class="bio" data-key="heroBio">Sou um estudante do ensino médio que ama a área de TI, me desafio e crio soluções elegantes e eficientes. Com foco em Python e Cybersegurança, mas com experiencia em criação de jogos e sites.</p>
+        <a href="#projetos" class="btn primary-btn" data-key="heroButton">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills section">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <p>HTML5 & CSS3</p>
+                <div class="bar-container"><div class="bar" data-percent="65"></div></div>
+            </div>
+            <div class="skill-item">
+                <p>JavaScript (ES6+)</p>
+                <div class="bar-container"><div class="bar" data-percent="25"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Python / Animação</p>
+                <div class="bar-container"><div class="bar" data-percent="70"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Cyber / Dev jogos</p>
+                <div class="bar-container"><div class="bar" data-percent="95"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+        <h2>Meus Projetos de Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Abex</h3>
+                    <p>Feito no Roblox Studio Foco em UX/UI/Animação e componentes reutilizáveis.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Demo</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Codigos basícos</h3>
+                    <p>Desenvolvolvimento em Python para fornecer automação e IA</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Documentação</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Landing Page Moderna</h3>
+                    <p>Design responsivo e otimizado para conversão, utilizando HTML e CSS puro.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Ver Site</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact section">
+        <h2>Vamos Trabalhar Juntos?</h2>
+        <p>Entre em contato para orçamentos, parce  rias ou apenas para tomar um café.</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+            <p id="form-message" class="message-feedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Matheus Lopes Pereira. Feito com código e segurança.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
